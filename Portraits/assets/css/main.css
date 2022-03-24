@@ -1649,6 +1649,9 @@ h4 {
   .main .button-order-img {
     right: -4rem;
   }
+  .main-slider-item img {
+    width: 100%;
+  }
   .promo {
     padding: 5rem 0;
   }
