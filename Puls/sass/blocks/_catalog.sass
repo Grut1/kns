@@ -1,0 +1,177 @@
+.catalog
+	padding: 0 0 80px 0
+	.catalog-title
+		font-weight: bold
+		font-size: 30px
+		line-height: 45px
+		text-align: center
+		text-transform: uppercase
+		color: $black-color
+		margin-top: 0
+	.catalog__tabs
+		margin-top: 46px
+		list-style-type: none
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-bottom: 0
+		padding-left: 0
+		.catalog__tab
+			width: 222px
+			height: 52px
+			border: 2px solid #D0D0D0
+			font-size: 18px
+			line-height: 50px
+			text-align: center
+			text-transform: uppercase
+			color: #6B6B6B
+			transform: skewX(-25deg)
+			margin: 0 5px
+			cursor: pointer
+			transition: 0.2s all
+			&:hover
+				box-shadow: 2px 2px 20px $main-color
+				border: none
+			div
+				transform: skewX(25deg)
+		.catalog__tab_active
+			background: $main-color
+			color: $white-color
+			border: none
+	.catalog__content
+		margin-top: 60px
+		display: none
+		flex-wrap: wrap
+		&_active
+			display: flex
+	.catalog-item
+		width: 300px
+		min-height: 440px
+		background: #FFFFFF
+		border: 2px solid #E8E8E8
+		padding: 20px 20px 26px 20px
+		overflow: hidden
+		margin: 0 8px 20px 8px
+		&__img
+			display: block
+			margin: 0 auto
+			max-width: 100%
+			height: 200px
+		&__subtitle
+			font-weight: bold
+			font-size: 16px
+			line-height: 25px
+			text-align: center
+			color: $black-color
+			margin-top: 15px
+			span
+				font-family: 'MuseoModerno'
+		&__descr
+			font-weight: 300
+			font-size: 14px
+			line-height: 22px
+			text-align: center
+			color: $black-color
+			margin-top: 15px
+		.catalog-item__link_content
+			display: block
+			font-weight: 500
+			font-size: 14px
+			line-height: 14px
+			text-align: center
+			color: $main-color
+			margin-top: 10px
+			cursor: pointer
+			&:hover
+				color: $main-color
+		hr
+			margin: 20px 0 18px 0
+			background: #E8E8E8
+			opacity: 0.3
+		.catalog-item__footer
+			display: flex
+			justify-content: space-between
+			align-items: center
+			.catalog-item__prices
+				.catalog-item__old-price
+					font-weight: 300
+					font-size: 14px
+					line-height: 14px
+					text-decoration-line: line-through
+					color: #555555
+				.catalog-item__new-price
+					font-weight: 900
+					font-size: 20px
+					line-height: 20px
+					color: #050505
+		&__btn
+			width: 120px
+			height: 44px
+			font-weight: 500
+			font-size: 14px
+			background: $main-color
+			color: $white-color
+			border: none
+			border-radius: 8px
+			cursor: pointer
+			transition: 0.5s all
+			&:hover
+				color: gold
+				border-radius: 100%
+				width: 100px
+				margin-right: 10px
+				box-shadow: 1px 1px 15px $main-color
+		.catalog-item__wrapper
+			display: flex
+			width: calc( 200% + 60px )
+		.catalog-item__content
+			width: 50%
+			margin-right: 0px
+			transform: translateX(-100%)
+			transition: 0.5s all
+			padding-right: 10px
+			&_active
+				transform: translateX(0%)
+				margin-right: 0px
+		.catalog-item__list
+			position: relative
+			width: 50%
+			margin-left: 20px
+			transform: translateX(0%)
+			padding-right: 30px
+			transition: 0.5s all
+			padding-left: 0
+			margin-bottom: 0
+			margin-top: 0
+			list-style-type: none
+			&_active
+				transform: translateX(-100%)
+				margin-right: 20px
+			li
+				position: relative
+				font-weight: 300
+				font-size: 14px
+				line-height: 21px
+				color: #555555
+				margin-bottom: 7px
+				&::before
+					content: ''
+					position: absolute
+					width: 5px
+					height: 5px
+					background-color: $main-color
+					left: -15px
+					top: 7px
+			.catalog-item__link_list
+				display: block
+				position: absolute
+				left: 50%
+				transform: translateX(calc( -50% - 19px ))
+				font-weight: 500
+				font-size: 14px
+				line-height: 14px
+				color: $main-color
+				bottom: 0
+				cursor: pointer
+				padding-right: 10px
+					

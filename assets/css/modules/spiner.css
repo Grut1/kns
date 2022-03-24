@@ -1,0 +1,146 @@
+@keyframes spiner {
+    0% {
+        opacity: 1;
+        backface-visibility: hidden;
+        transform: translateZ(0) scale(1.12, 1.12);
+    }
+
+    100% {
+        opacity: 0;
+        backface-visibility: hidden;
+        transform: translateZ(0) scale(1, 1);
+    }
+}
+
+.spiner div>div {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #0a4269;
+    animation: spiner 1.075268817204301s linear infinite;
+}
+
+.spiner div:nth-child(1)>div {
+    left: 128px;
+    top: 74px;
+    animation-delay: -0.9557945041816008s;
+}
+
+.spiner>div:nth-child(1) {
+    transform: rotate(0deg);
+    transform-origin: 154px 100px;
+}
+
+.spiner div:nth-child(2)>div {
+    left: 115px;
+    top: 109px;
+    animation-delay: -0.8363201911589008s;
+}
+
+.spiner>div:nth-child(2) {
+    transform: rotate(40deg);
+    transform-origin: 141px 135px;
+}
+
+.spiner div:nth-child(3)>div {
+    left: 83px;
+    top: 127px;
+    animation-delay: -0.7168458781362006s;
+}
+
+.spiner>div:nth-child(3) {
+    transform: rotate(80deg);
+    transform-origin: 109px 153px;
+}
+
+.spiner div:nth-child(4)>div {
+    left: 47px;
+    top: 121px;
+    animation-delay: -0.5973715651135005s;
+}
+
+.spiner>div:nth-child(4) {
+    transform: rotate(120deg);
+    transform-origin: 73px 147px;
+}
+
+.spiner div:nth-child(5)>div {
+    left: 23px;
+    top: 92px;
+    animation-delay: -0.4778972520908004s;
+}
+
+.spiner>div:nth-child(5) {
+    transform: rotate(160deg);
+    transform-origin: 49px 118px;
+}
+
+.spiner div:nth-child(6)>div {
+    left: 23px;
+    top: 56px;
+    animation-delay: -0.3584229390681003s;
+}
+
+.spiner>div:nth-child(6) {
+    transform: rotate(200deg);
+    transform-origin: 49px 82px;
+}
+
+.spiner div:nth-child(7)>div {
+    left: 47px;
+    top: 27px;
+    animation-delay: -0.2389486260454002s;
+}
+
+.spiner>div:nth-child(7) {
+    transform: rotate(240deg);
+    transform-origin: 73px 53px;
+}
+
+.spiner div:nth-child(8)>div {
+    left: 83px;
+    top: 21px;
+    animation-delay: -0.1194743130227001s;
+}
+
+.spiner>div:nth-child(8) {
+    transform: rotate(280deg);
+    transform-origin: 109px 47px;
+}
+
+.spiner div:nth-child(9)>div {
+    left: 115px;
+    top: 39px;
+    animation-delay: 0s;
+}
+
+.spiner>div:nth-child(9) {
+    transform: rotate(320deg);
+    transform-origin: 141px 65px;
+}
+
+.loadingio-spinner-spin-w7py9mci4c {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: transparent;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.spiner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+    /* see note above */
+}
+
+.spiner div {
+    box-sizing: content-box;
+}
+

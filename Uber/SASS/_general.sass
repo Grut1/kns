@@ -1,0 +1,467 @@
+/**------------Header----------- ----------------------------- **/
+header
+	position: relative
+	nav
+		position: fixed
+		width: 100%
+		z-index: 5
+		height: 53px
+		background: #212121 
+	.hamburger
+		
+	.menu
+		display: flex
+		justify-content: space-between
+		padding: 15px 55px 14px 55px
+		&-item
+			list-style-type: none
+		&-link
+			text-decoration: none
+			font-size: 15px
+			font-weight: 300
+			color: #FFFFFF
+			margin-bottom: 0px
+			&:hover
+				text-decoration: none
+				color: $link-color
+
+.subheader
+	position: absolute
+	top: 53px
+	height: 84px
+	background-color: rgba(0, 0, 0, .6)
+	mix-blend-mode: normal
+	width: 100%
+	z-index: 2
+	.subheader-padding
+		padding-bottom: 13px
+		.logo
+			margin: 17px 0  0
+		.logo-text
+			font-weight: 200
+			font-size: 13px
+			line-height: 20px
+			color: #FFFFFF
+			opacity: 0.7
+		.subheader-call
+			font-weight: 300
+			font-size: 12px
+			line-height: 14px
+			color: #FFFFFF
+			margin-top: 22px
+			text-align: right
+		.subheader-phone
+			display: block
+			font-weight: normal
+			font-size: 22px
+			line-height: 35px
+			color: #FFFFFF
+			text-decoration: none
+			text-align: right
+			&:hover
+				text-decoration: none
+				color: $link-color
+		.xs-visible
+			display: none
+		.subheader-btn
+			width: 172px
+			height: 46px
+			background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+			box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
+			border-radius: 4px
+			font-size: 14px
+			ine-height: 46px
+			text-transform: uppercase
+			color: #FFFFFF
+			margin-top: 19px
+			&:hover
+				background-image: none
+				background-color: $main-color
+	
+ /** ----------End header------- ------------------------- **/   
+
+
+
+/**------------Promo------------ ----------------------------- **/
+.promo
+	height: 800px
+	background: url('../image/bg/promo_bg.jpg') center center/cover no-repeat
+	.promo-wrapper
+		padding-top: 190px
+		.promo-title
+			font-size: 60px
+			line-height: 24px
+			text-align: center
+			text-transform: uppercase
+			color: #FFFFFF
+		.promo-subtitle
+			font-size: 36px
+			line-height: 48px
+			font-weight: 900
+			text-align: center
+			text-transform: uppercase
+			color: #FFFFFF
+			margin-top: 25px
+		.promo-text
+			font-size: 17px
+			line-height: 24px
+			text-align: center
+			font-weight: 300
+			color: #FFFFFF
+			margin-top: 30px
+		.promo-btn
+			width: 259px
+			height: 63px
+			background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+			box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
+			border-radius: 4px
+			font-size: 18px
+			line-height: 63px
+			color: #FFFFFF
+			text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+			border: none
+			display: block
+			margin: 117px auto 190px auto
+			text-align: center
+			&:hover
+				background-image: none
+				background-color: $main-color
+		
+/** ----------End promo------- ----------------------------- **/
+
+
+/**------------Reason----------- ----------------------------- **/
+.reasons
+	display: flex
+	min-height: 864px
+	padding: 18px 0 64px 0
+	.label
+		@include label
+	.multy-title
+		@include multy-title
+.reason-block
+	display: flex
+	justify-content: center
+	align-items: flex-start
+	margin-top: 35px
+	.reason-round
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 113px
+		height: 113px
+		background: #1EACC7	
+		border-radius: 100%
+.reason-descr
+	width: 371px
+	.reason-subtitle
+		font-size: 17px
+		line-height: 21px
+		color: #1EACC7
+		padding-left: 25px
+	.reason-text
+		font-weight: 300
+		font-size: 15px
+		line-height: 21px
+		color: #202020	
+		padding-left: 25px	
+/** ----------End reason------- ----------------------------- **/
+
+
+/**------- Mobile app ---------- ----------------------------- **/
+
+.mobile
+	min-height: 864px
+	padding: 46px 0 0px 0
+	background: url('../image/bg/mobile_app_bg.jpg') center center/cover no-repeat
+	.row
+		margin-top: 30px
+	.label
+		@include label
+	.multy-title
+		@include multy-title
+	.multy-subtitle
+		@include multy-subtitle
+	.mobile-item
+		position: relative
+		width: 320px
+		height: 280px
+		margin: 0 auto
+		margin-bottom: 19px
+		&-1
+			background: url('../image/mobile_app_bg/mobile_screen_1.jpg') center (center / cover) no-repeat
+		&-2
+			background: url('../image/mobile_app_bg/mobile_screen_2.jpg') center (center / cover) no-repeat
+		&-3
+			background: url('../image/mobile_app_bg/mobile_screen_3.jpg') center (center / cover) no-repeat
+		&-4
+			background: url('../image/mobile_app_bg/mobile_screen_4.jpg') center (center / cover) no-repeat
+		&-5
+			background: url('../image/mobile_app_bg/mobile_screen_5.jpg') center (center / cover) no-repeat
+		&-6
+			background: url('../image/mobile_app_bg/mobile_screen_6.jpg') center (center / cover) no-repeat
+		&-subtitle
+			font-size: 24px
+			line-height: 31px
+			text-align: center
+			text-transform: uppercase
+			color: #FFFFFF
+			padding-top: 88.5px
+		&-plus
+			display: flex
+			justify-content: center
+			align-items: center
+			position: absolute
+			bottom: 34px
+			left: 50%
+			transform: translateX(-50%)
+			width: 29px
+			height: 29px
+			background: #000000
+			border-radius: 100%
+			cursor: pointer
+			&:hover:before
+				background-color: $link-color
+				transform: scale(1.3)
+			&:hover:after
+				background-color: $link-color
+				left: 14px	 
+				transform: scale(1.3)
+			&::before
+				content: ''
+				display: block
+				width: 14px
+				height: 2px
+				background-color: $main-color
+			&::after
+				content: ''
+				display: block
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				width: 2px
+				height: 14px
+				background-color: $main-color
+
+/** ------ End mobile app ------ ----------------------------- **/
+
+
+/**------- Choice car ---------- ----------------------------- **/
+
+.choice-car
+	position: relative
+	padding: 57px 0 0 0
+	min-height: 897px
+	background: url('../image/car_down_bg.jpg') center (center / cover) no-repeat
+	.label
+		@include label
+		background: #FFFFFF
+		color: #070716
+		z-index: 3
+	.multy-title
+		@include multy-title
+		color: #FFFFFF
+		z-index: 3
+	.multy-subtitle
+		@include multy-subtitle
+		color: #FFFFFF
+		z-index: 3
+	.img-car
+		position: relative
+		display: block
+		margin: 56px auto 0 auto
+		z-index: 5
+	.choice-car-text
+		text-align: center
+		color: #222222
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+	.black
+		position: absolute 
+		top: 0
+		left: 0
+		height: 499px
+		width: 100%
+		background-color: #070716
+		z-index: 1			
+		
+/** ------ End choice car ------ ----------------------------- **/
+
+
+/**------- Require ------------- ----------------------------- **/
+
+.require
+	padding: 66px 0 89px 0
+	.label
+		@include label
+	.multy-title
+		@include multy-title
+	&-block
+		margin: 33px 0
+		&-nmb
+			margin-bottom: 0px
+	&-title
+		font-size: 22px
+		line-height: 24px
+		font-weight: 400
+		color: #1CA8C3
+	.warning
+		.require-title
+			font-size: 22px
+			line-height: 24px
+			font-weight: 400
+			color: #FF5656
+		.require-list
+			li
+				&::before
+					content: ''
+					display: inline-block
+					margin-right: 10px
+					vertical-align: middle
+					width: 21px
+					height: 20px
+					background: url('../icon/check_red.svg') center (center / cover) no-repeat
+	&-list
+		list-style-type: none
+		font-size: 17px
+		line-height: 28px
+		font-weight: 300
+		color: #222222
+		padding-left: 50px
+		margin-top: 22px
+		li span
+			padding-left: 30px
+		li::before
+			content: ''
+			display: inline-block
+			margin-right: 10px
+			vertical-align: middle
+			width: 21px
+			height: 20px
+			background: url('../icon/check_blue.svg') center (center / cover) no-repeat
+	&-descr
+		font-weight: 300
+		font-size: 17px
+		line-height: 24px
+		color: #1CA8C3
+
+/** ------ End require --------- ----------------------------- **/
+
+
+/**------- World map ------------ ----------------------------- **/
+
+.world-map
+	width: 100%
+	height: 717px
+	background: #080816
+	&-bg
+		position: relative
+		min-height: 716px
+		background: url('../image/bg/world_bg.jpg') center center no-repeat
+	&-descr
+		padding: 48px 0 0 0
+		.label
+			@include label
+			background: #FFFFFF
+			color: #070716
+			width: 76px
+			height: 24px
+		.multy-title
+			@include multy-title
+			color: #FFFFFF
+		.multy-subtitle
+			@include multy-subtitle
+			color: #FFFFFF
+	&-link
+		display: block
+		position: absolute
+		text-decoration: none
+		font-size: 15px
+		line-height: 68px
+		bottom: 21.5px
+		left: 50%
+		transform: translateX(-50%)
+		text-transform: uppercase
+		color: #1FBAD6
+		&:hover
+			text-decoration: none
+			color: $link-color
+
+/** ------ End world map -------- ----------------------------- **/
+
+
+
+/**------- Footer ------------ ----------------------------- **/
+
+.footer
+	display: flex
+	justify-content: space-between
+	align-items: flex-start
+	background: #FFFFFF
+	padding: 15px 25px 25px 25px
+	.footer>div
+		width: 33%
+	.social-icon
+		display: flex
+		.social-icon-item
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 32px
+			height: 32px
+			background-color: #070716
+			border-radius: 100%
+			margin: 30px 0 0 10px
+			i
+				color: #fff
+				&:hover
+					text-decoration: none
+					color: $link-color
+	.center-link
+		display: block
+		margin: 0 auto
+		padding-left: 115px
+		.footer-link
+			text-align: center
+		.line
+			width: 299px
+			height: 4px
+			background: #1FBAD6
+			margin: 0 auto
+		.footer_links_main
+			display: inline-block
+			font-weight: 300
+			font-size: 15px
+			line-height: 24px
+			text-transform: uppercase
+			color: #070716
+			padding: 0 15px 0 30px
+			&:hover
+				text-decoration: none
+				color: $main-color
+		.footer_links_sub
+			display: inline-block
+			font-weight: 300
+			font-size: 11px
+			line-height: 24px
+			text-transform: uppercase
+			color: #999999
+			padding-right: 15px
+			&:hover
+				text-decoration: none
+				color: $main-color
+		.footer_links_lang
+			font-weight: normal
+			font-size: 11px
+			line-height: 24px
+			text-transform: uppercase
+			color: #1FBAD6
+			&:hover
+				text-decoration: none
+				color: $main-color
+	.app-icon
+		margin-top: 30px
+ 
+/** ------ End footer -------- ----------------------------- **/
+

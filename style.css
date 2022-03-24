@@ -1,0 +1,60 @@
+.test-box {
+  display: block;
+  margin: 300px auto;
+  width: 50%;
+  height: auto;
+  border: 2px solid #000;
+  background-color: #E5E5E5;
+}
+
+.f-box {
+  border: 1px solid #000;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.label {
+  font-size: 24px;
+}
+
+.percent {
+  font-size: 24px;
+}
+
+.border {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto 30px auto;
+  border: 4px solid #000;
+}
+
+.g-scale {
+  width: 99%;
+  height: 85%;
+  margin: 3px auto 0 auto;
+  background-color: grey;
+}
+
+.o-scale {
+  width: 0.1%;
+  height: 100%;
+  background-color: #F2B415;
+}
+
+.o-scale-active {
+  width: 90%;
+  height: 100%;
+  background-color: #F2B415;
+  transition: 3s ease;
+}
+
+.btn {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background-color: darksalmon;
+  margin: 0 auto 20px auto;
+}

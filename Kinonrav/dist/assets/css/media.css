@@ -1,0 +1,1064 @@
+@media (max-width: 1340px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .website__container-header {
+        width: 100%;
+    }
+
+    .website__container-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .website__logo {
+        width: 200px;
+        margin-top: 8px;
+    }
+
+    .website__logo-text {
+        font-size: 42px;
+    }
+
+    .website__logo-img {
+        width: 37px;
+        height: 50px;
+    }
+
+    .website__pleer {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1300px) {
+
+    .website__poster-img {
+        transform: translate(20%, -12%);
+    }
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .website__page-title {
+        display: none;
+    }
+
+    .website {
+        padding: 160px 0;
+    }
+
+    /* .website__menu {
+        height: 210px;
+    } */
+
+    .website__poster-img {
+        transform: translate(30%, -5%);
+        width: 240px;
+        height: 340px;
+    }
+
+    .website__poster-block {
+        height: 210px;
+    }
+
+    .overlay {
+         height: 212px;
+         bottom: -2px;
+    }
+
+    .website__poster-translation {
+        padding: 12px 0 0 5px;
+    }
+
+    .website__film-info {
+        padding: 12px 15px 0 15px;
+    }
+
+    .website__otherFilms-title {
+        padding: 25px 30px 25px 30px;
+    }
+
+    .website__otherFilms-content {
+        padding: 0 30px;
+    }
+
+}
+
+@media (max-width: 1149px) {
+    
+    .website__change-text {
+        font-size: 18px;
+    }
+
+    .website__change-btn {
+        width: 120px;
+    }
+
+    .website__menu {
+        height: 30px;
+    }
+
+    .website__registration-btn {
+        width: 130px;
+    }
+
+    .website_login {
+        width: 245px;
+    }
+
+    .website__logo-text {
+        font-size: 38px;
+    }
+
+    .website__logo-img {
+        width: 34px;
+        height: 47px;
+    }
+
+    .website__poster-img {
+        transform: translate(30%, 8%);
+        width: 215px;
+        height: 315px;
+    }
+
+    .website__poster-btnLove {
+        width: 165px;
+        height: 32px;
+        font-size: 15px;
+    }
+
+    .website__poster-btnTrailer {
+        width: 165px;
+        height: 32px;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 1040px) {
+   
+    .website__poster-img {
+        transform: translate(22%, 8%);
+    }
+    
+}
+
+
+@media (max-width: 991px) {
+    
+    .website {
+        width: 100%;
+        min-height: auto;
+        padding: 0;
+    }
+
+    .website__wrapper {
+        width: 100%;
+        min-height: 0;
+        height: auto;
+    }
+
+    .website__poster-img {
+       transform: translate(30%, 20%);
+    }
+
+    .website__content-area {
+        min-height: 0;
+        height: 100%;
+    }
+
+    .website__nav-block {
+        padding-top: 20px;
+    }
+
+    .website_login {
+        justify-content: space-between;
+        padding-top: 3px;
+    }
+
+    .website__menu-992px {
+        padding-top: 18px;
+    }
+
+    .website__search {
+        margin-left: 10px;
+    }
+
+    .website__search-close {
+        margin-left: 10px;
+    }
+
+    .website__poster-img {
+        width: 190px;
+        height: 280px;
+    }
+
+    .website__film-descr {
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    .website__content-area {
+        padding-top: 30px;
+    }
+
+    .website__footer-mainLink {
+        margin-right: 7px;
+    }
+
+    .website__footer-sublink {
+        margin-right: 12px;
+    }
+
+    .website__footer-categories {
+       text-align: right;
+    }
+
+    .website__footer-categor {
+        margin-left: 7px;
+    }
+
+    .up-arrow {
+        bottom: 5px;
+        right: 5px;
+        width: 24px;
+        height: 26px;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+
+    .website__otherFilms-poster {
+        width: 125px;
+        height: 205px;
+    }
+
+    .website__otherFilms-subtitle {
+        width: 124px;
+    }
+
+}
+
+
+@media (max-width: 866px) {
+
+    .website__film-info {
+        height: 215px;
+    }
+
+    .website__poster-img {
+       transform: translate(20%, 20%);
+    }
+
+
+}
+
+
+
+
+@media (max-width: 767px) {
+    
+    .website__change-text {
+        font-size: 16px;
+    }
+
+    .website__change-btn {
+        width: 85px;
+    }
+
+    .website__change-btn {
+        height: 28px;
+        font-size: 13px;
+    }
+
+    .website__menu {
+        margin: 14px 0 330px 0;
+    }
+
+    .website__logo {
+        width: auto;
+        margin-top: 8px;
+    }
+
+    .website__logo-text {
+        font-size: 28px;
+    }
+
+    .website__logo-img {
+        width: 29px;
+        height: 28px;
+    }
+
+    .website__logo-text {
+        margin-left: 5px;
+    }
+
+    .website__menu-992px {
+        padding-top: 14px;
+    }
+
+    .website_login {
+        padding-top: 0px;
+    }
+
+    .website__search-string {
+        height: 44px;
+    }
+
+    .search__btn {
+        width: 80px;
+        height: 36px;
+        font-size: 16px;
+        padding-top: 8px;
+    }
+
+    .search__btn_wrapper {
+        right: 0px;
+        width: 85px;
+        height: 50px;
+        padding-top: 4px;
+    }
+
+    .website__filmInfo-block {
+        margin-left: 0;
+    }
+
+    .website__film-descr {
+        height: 152px;
+        padding: 10px 30px;
+    }
+
+    .website__poster-img {
+        width: 180px;
+        height: 255px;
+        transform: translate(-50%, -93%);
+        left: 50%;
+        box-shadow: 0px 1px 40px 4px rgb(250 250 250 / 60%);
+    }
+
+    .website__poster-duration {
+        top: -18px;
+        right: 55px;
+        width: 75px;
+        height: 18px;
+        font-size: 10px;
+    }
+
+    .website__poster-conditions {
+        top: -18px;
+        height: 18px;
+        font-size: 11px;
+    }
+
+    .website__film-engName {
+        font-size: 20px;
+        color: rgba(250, 250, 250, 0.7);
+        margin-bottom: 10pxpx;
+    }
+
+    .website__film-ruName {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .website__film-genres {
+        font-size: 15px;
+        color: rgba(250, 250, 250, 0.7);
+        margin-bottom: 10px;
+    }
+
+    .website__film-points {
+        width: 140px;
+    }
+
+    .points-kinopoisk {
+        font-size: 16px;
+    }
+
+    .points-imdb {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .points-kinonrav {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .website__film-views {
+        font-size: 16px;
+    }
+
+    .website__poster-translation {
+        padding: 10px 10px 10px 30px;
+    }
+
+    .website__poster-translate {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    .website__film-info {
+        font-size: 15px;
+        padding: 10px 30px 10px 10px;
+    }
+
+    .website__film-info {
+        height: 170px;
+    }
+
+    .nav-wrapper-menu-992px {
+        z-index: 15;
+    }
+
+    .nav-wrapper-menu .website__nav-link {
+        font-size: 15px;
+    }
+
+    .website__genres-link-992px {
+        font-size: 14px;
+        padding: 7px 6px 7px 20px;
+    }
+
+    .website__genres-992px {
+        width: 250px;
+    }
+
+    .website__content-descriptionTitle {
+        font-size: 21px;
+        margin: 30px 0 18px 0;
+    }
+
+    .website__content-descriptionText {
+        font-size: 15px;
+        line-height: 27px;
+        text-indent: 40px;
+    }
+
+    .website__pleer-title {
+        font-size: 20px;
+    }
+
+    .social__icon_block {
+        padding-left: 0;
+    }
+
+    .social__icn {
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    .likes__btnG {
+        width: 42px;
+        height: 26px;
+        font-size: 13px;
+    }
+
+    .likes__btnR {
+        width: 42px;
+        height: 26px;
+        font-size: 13px;
+    }
+
+    .website__comments-subtitle {
+        font-size: 13px;
+    }
+
+    .website__comments-textarea {
+        padding: 11px;
+        font-size: 13px;
+    }
+
+    .website__comments-push {
+        font-size: 13px;
+    }
+
+    .website__comments-name,
+    .website__comments-email {
+        font-size: 11px;
+        padding: 10px;
+    }
+
+    .website__otherFilms-title {
+        font-size: 19px;
+        text-align: center;
+        padding: 25px 10px 25px 10px;
+    }
+
+    .website__otherFilms-content {
+        padding: 0 30px;
+    }
+
+    .website__otherFilms-poster {
+        width: 92px;
+        height: 145px;
+        margin-bottom: 5px;
+    }
+
+    .website__otherFilms-subtitle {
+        width: 100px;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .website__otherFilms-year {
+        font-size: 12px;
+    }
+
+    .website__footer {
+        width: 100%;
+        min-height: 130px;
+        padding: 0 30px;
+    }
+
+    .website__footer-mainLink {
+        font-size: 14px;
+    }
+
+    .website__footer-sublink {
+        font-size: 13px;
+    }
+
+    .website__footer-categor {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .website__footer-copyright {
+        font-size: 13px;
+        top: 82px;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .website__poster-img {
+        width: 160px;
+        height: 230px;
+        transform: translate(-50%, -100%);
+        left: 50%;
+        box-shadow: 0px 1px 40px 4px rgb(250 250 250 / 60%);
+    }
+
+    .website__film-descr {
+        height: 152px;
+        padding: 10px;
+    }
+
+    .website__poster-translation {
+        padding: 10px;
+    }
+
+    .website__film-info {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .website__otherFilms-content {
+        padding: 0 10px;
+    }
+
+    .website__footer {
+        padding: 0 10px;
+    }
+
+
+}
+
+
+@media (max-width: 575px) {
+
+    .website__change-text {
+        font-size: 12px;
+    }
+
+    .website__change-btn {
+        width: 70px;
+        height: 24px;
+        font-size: 11px;
+    }
+
+    .website__logo-img {
+        width: 23px;
+        height: 22px;
+    }
+
+    .website__logo-text {
+        font-size: 20px;
+    }
+
+    .website__menu-992px-text {
+        font-size: 14px;
+    }
+
+    .nav-wrapper-menu .website__nav-link {
+        font-size: 12px;
+        padding: 12px 12px;
+    }
+
+    .website__nav-link-992px {
+        padding: 15px 12px;
+    }
+
+    .website__genres-992px {
+        column-gap: 40px;
+    }
+
+    .nav-wrapper-menu-992px {
+        width: 90px;
+    }
+
+    .website__genres-992px {
+        top: 10px;
+        left: 76px;
+        width: 200px;
+    }
+
+    .website__genres-link-992px {
+        font-size: 12px;
+    }
+
+    .website_login {
+        width: 210px;
+    }
+
+    .website__nav-link {
+        font-size: 14px;
+    }
+
+    .website__registration-btn {
+        width: 110px;
+        height: 28px;
+        font-size: 13px;
+    }
+
+    .website__search {
+        width: 20px;
+        height: 21px;
+    }
+
+    .website__search-close {
+        width: 20px;
+        height: 21px;
+    }
+
+    .website__search-string {
+        height: 36px;
+        margin-top: 10px;
+    }
+
+    .search__btn_wrapper {
+        right: -10px;
+        width: 85px;
+        height: 36px;
+        padding-top: 4px;
+        margin-top: 10px;
+    }
+
+    .search__btn {
+        width: 70px;
+        height: 28px;
+        font-size: 12px;
+        padding-top: 7px;
+    }
+
+    .website__poster-block {
+        height: 192px;
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    .website__poster-translate {
+        font-size: 13px;
+    }
+
+    .website__film-info {
+        height: 100%;
+        font-size: 13px;
+    }
+
+    .website__poster-btnLove {
+        font-size: 11px;
+    }
+
+    .website__poster-btnTrailer {
+        font-size: 11px;
+    }
+
+    .website__filmInfo-block {
+        display: block; 
+    }
+
+    .likes__btnG {
+        width: 34px;
+        height: 22px;
+        font-size: 12px;
+    }
+
+    .likes__btnR {
+        width: 34px;
+        height: 22px;
+        font-size: 12px;
+    }
+
+    .website__comments-title {
+        font-size: 20px;
+    }
+
+    .website__comments-subtitle {
+        font-size: 11px;
+    }
+
+    .website__comments-open {
+        width: 36px;
+        height: 36px;
+        font-size: 25px;
+        padding: 0px 0 0 0px;
+    }
+
+    .website__comment-name {
+        line-height: 26px;
+        font-size: 15px;
+    }
+
+    .website__comment-date {
+        padding-top: 5px;
+        font-size: 13px;
+    }
+
+    .website__comment-text {
+        font-size: 14px;
+    }
+
+    .website__otherFilms {
+        background: #FFFFFF;
+        background: -webkit-radial-gradient(center, #FFFFFF, #CCCCCC);
+        background: -moz-radial-gradient(center, #FFFFFF, #CCCCCC);
+        background: radial-gradient(ellipse at center, #FFFFFF, #CCCCCC);
+    }
+    
+    .website__otherFilms-title {
+        margin-bottom: 20px;
+    }
+
+    .website__otherFilms-poster {
+        cursor: grab;
+    }
+
+    .website__footer {
+        min-height: 120px;
+    }
+
+    .website__footer-mainLink {
+        font-size: 12px;
+    }
+
+    .website__footer-sublink {
+        font-size: 12px;
+    }
+
+    .website__footer-categor {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .website__footer-copyright {
+        font-size: 12px;
+        top: 82px;
+    }
+
+}
+
+@media (max-width: 469px) {
+
+    .website__change-bg {
+        height: 0;
+        min-height: 50px;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+    .website__change-text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .d-flex .search__btn_wrapper {
+        width: 85px;
+    }
+
+    .website_login {
+        width: 155px;
+    }
+
+    .website__registration-btn {
+        width: 80px;
+        height: 25px;
+        font-size: 11px;
+    }
+
+    .website__search {
+        margin-left: 5px;
+        padding-top: 2px;
+    }
+
+    .website__search-close {
+        font-size: 33px;
+        margin-left: 7px;
+        transform: translate(-5px, -127%);
+    }
+
+    .website__nav-link-992px {
+        padding: 15px 8px;
+    }
+
+    .website__filmInfo-block {
+        height: auto;
+    }
+
+    .website__poster-block {
+        height: auto;
+    }
+
+    .website__film-engName {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .website__film-ruName {
+        font-size: 26px;
+    }
+
+    .website__film-genres {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .website__film-views {
+        font-size: 12px;
+    }
+
+    .comments {
+        margin-left: 12px;
+    }
+
+    .website__film-points {
+        width: 105px;
+    }
+
+    .points-kinopoisk {
+        font-size: 13px;
+    }
+
+    .points-imdb {
+        font-size: 13px;
+    }
+
+    .points-kinonrav {
+        font-size: 13px;
+    }
+
+    .website__poster-block {
+        flex-direction: column;
+    }
+
+    .website__poster-translation {
+        width: 100%;
+        order: 1;
+    }
+
+    .website__film-info {
+        width: 100%;
+        order: 0;
+    }
+
+    .website__content-descriptionTitle {
+        font-size: 18px;
+    }
+
+    .website__content-descriptionText {
+        font-size: 13px;
+    }
+
+    .website__pleer-title {
+        font-size: 18px;
+    }
+
+    .social__icn {
+        font-size: 14px !important;
+        margin-right: 7px;
+    }
+
+    .likes__btnG {
+        width: 28px;
+        height: 18px;
+        font-size: 11px;
+    }
+
+    .likes__btnR {
+        width: 28px;
+        height: 18px;
+        font-size: 11px;
+    }
+
+    .website__comments-title {
+        font-size: 18px;
+    }
+
+    .website__comments-subtitle {
+        font-size: 10px;
+    } 
+
+    .website__comments-open {
+        width: 31px;
+        height: 31px;
+    }
+
+    .form-flex {
+        flex-direction: column;
+    }
+
+    .website__comments-push {
+        width: 100%;
+        font-size: 12px;
+        order: 1;
+    }
+
+    .website__comments-name,
+    .website__comments-email {
+        width: 100%;
+        margin: 0 0 4px 0;
+        order: 0;
+    }
+
+    .website__comments-textarea {
+        margin-bottom: 0;
+    }
+
+    .website__comment-area {
+        min-height: 88px;
+    }
+
+    .website__comment-photo {
+        width: 40px;
+        height: 40px;
+        line-height: 42px;
+        font-size: 26px;
+    }
+
+    .website__comment-name {
+        line-height: 18px;
+        font-size: 15px;
+    }
+
+    .website__comment-text {
+        font-size: 12px;
+        line-height: 16px;
+        margin: 7px 0 5px 0;
+    }
+
+    .website__container-footer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .website__footer-nav {
+        position:unset;
+        width: 30%;
+    }
+
+    .website__footer-mainLink,
+    .website__footer-sublink,
+    .website__footer-categor {
+        display: block;
+        width: 100%;
+        margin: 0 0 6px 0;
+    }
+
+    .website__footer-subnav {
+        position:unset;
+        width: 35%;
+    } 
+    
+    .website__footer-categories {
+        position: unset;
+        width: 30%;
+        text-align: center;
+    }
+
+    .website__footer-copyright {
+        position:unset;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+
+    .website__menu {
+        margin: 21px 0 345px 0;
+    }
+
+    .website__menu div:nth-child(3) {
+        order: 1;
+    }
+
+    .website__menu div:nth-child(2) {
+        order: 2;
+    }
+
+    .d-flex {
+        width: auto;
+        margin: 0 auto;
+        order: 3;
+    }
+
+    .website_login .website__nav-link {
+        padding: 12px 0px;
+    }
+
+    .website__nav .website__menu-992px-text {
+        margin-right: 160px;
+    }
+
+    .website__search-string {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .website__menu-992px-text {
+        text-align: left;
+    }
+
+    .search__btn_wrapper {
+        margin-top: 5px;
+    }
+
+    .website__search {
+        margin-left: 5px;
+    }
+
+    .website__search-close {
+        margin-left: 5px;
+        padding-left: 2px;
+    }
+
+}
+

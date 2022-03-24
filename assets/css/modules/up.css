@@ -1,0 +1,10 @@
+.up__icon {
+    position: relative;
+}
+
+.up {
+    position: fixed;
+    right: 42px;
+    bottom: 42px;
+    cursor: pointer;
+}

@@ -1,0 +1,473 @@
+@media (max-width: 1200px)
+	body
+		.menu
+			padding: 15px 0 14px 0 !important
+			.menu-item
+				padding: 0 20px
+		.subheader
+			&-phone
+				text-align: right
+		.promo
+			.promo-wrapper
+				.promo-title
+					font-size: 55px
+				.promo-subtitle
+					font-size: 34px
+		.reasons
+			.reason-block
+				align-items: flex-start
+			.reason-descr
+				width: 340px
+		.mobile
+			.mobile-item
+				width: 290px
+				.mobile-item-subtitle
+					font-size: 22px
+		
+
+		.footer
+			padding: 15px 25px 5px 25px
+			.center-link
+				padding-left: 0px
+				.footer-link
+					.footer_links_main
+						padding: 0 13px
+					.footer_links_sub
+						padding-right: 9px
+						&:last-child
+							padding-right: 0
+			.app-icon
+				display: block
+				width: 175px
+				margin-top: 10px
+				.app-footer-img
+					display: block
+					margin: 0 auto 10px auto
+
+@media (max-width: 991px)
+	body
+		.menu
+			padding: 15px 0 14px 0 !important
+			.menu-item
+				padding: 0 
+				.menu-link
+					font-size: 13px
+
+		.subheader
+			.subheader-padding
+				padding: 0 0 13px 15px
+				.logo
+					margin: 12px 0  0
+					.logo-icon
+						width: 100%
+				.subheader-call
+					margin-top: 15px
+				.logo-text
+					font-size: 11px
+				.subheader-phone
+					font-size: 19px
+				.subheader-btn
+					margin-top: 15px
+		.promo
+			.promo-wrapper
+				.promo-title
+					font-size: 40px
+				.promo-subtitle
+					font-size: 25px
+					line-height: 25px
+				.promo-text
+					font-size: 15px
+		.reasons
+			.multy-title
+				font-size: 35px
+			.reason-block
+				flex-direction: column
+				align-items: center
+			.reason-descr
+				margin-top: 15px
+				width: 340px
+				.reason-subtitle
+					text-align: center
+					padding-left: 0
+				.reason-text
+					text-align: justify
+					padding-left: 0
+		.mobile
+			min-height: 780px
+			.multy-title
+				font-size: 35px
+			.mobile-item
+				width: 215px
+				height: 230px
+				margin-bottom: 10px
+				.mobile-item-subtitle
+					font-size: 16px
+		.choice-car
+			min-height: 800px
+			.position
+				position: relative
+				z-index: 10
+			.multy-title
+				font-size: 35px
+			.img-car
+				width: 100%
+			.car-down-bg
+				position: absolute
+				z-index: 1 
+		.require
+			padding: 66px 0 89px 0
+			.multy-title
+				font-size: 35px
+			.require-descr
+				font-size: 16px
+		.world-map
+			.multy-title
+				font-size: 35px
+		.footer
+			padding: 15px 5px 5px 5px
+			.social-icon
+				.social-icon-item
+					margin: 30px 0 0 4px
+			.center-link
+				padding-left: 0px
+				.footer-link
+					.footer_links_main
+						padding: 0 15px 0 30px
+						font-size: 13px
+					.footer_links_sub
+						padding: 0 12px 0 5px
+						font-size: 10px
+						&:last-child
+							padding-right: 0
+			.app-icon
+				display: block
+				width: 140px
+				margin-top: 10px
+				.app-footer-img
+					display: block
+					margin: 0 auto 10px auto
+
+@media (max-width: 767px)
+	body
+		.menu
+			position: fixed
+			flex-direction: column
+			justify-content: center !important
+			align-items: center
+			top: 0
+			left: -100%
+			width: 50%
+			height: 100%
+			padding: 20px 15px
+			background-color: rgba(0, 0, 0, .8)
+			transition: 0.6s all
+			&-active
+				left: 0
+			.menu-item
+				width: 100%
+				text-align: center
+				margin-top: 25px
+				.menu-link
+					display: block
+					font-size: 20px
+		.hamburger
+			display: block
+			position: absolute
+			right: 10px
+			top: 50%
+			transform: translateY(-50%)
+			width: 30px
+			height: 15px
+			cursor: pointer
+			span
+				display: block
+				width: 100%
+				height: 2px
+				background-color: #fff
+				margin-bottom: 3px
+				transition: 0.5s all
+			&-active
+				span
+					margin-bottom: -3px
+					&:nth-child(1)
+						transform: translateY(3px) rotate(-45deg)
+					&:nth-child(2)
+						display: none	
+					&:nth-child(3)
+						transform: translateY(3px) rotate(45deg)	
+		.subheader
+			.subheader-padding
+				padding: 0 0 13px 15px
+				.logo
+					margin: 12px 0  0
+					.logo-icon
+						width: 100%
+				.subheader-call
+					margin-top: 15px
+				.logo-text
+					font-size: 11px
+				.subheader-phone
+					font-size: 19px
+				.xs-hidden
+					display: none
+				.xs-visible
+					display: block
+					font-size: 18px
+					line-height: 26px
+					text-align: center
+				.subheader-btn
+					display: block
+					margin: 0 auto 0 auto
+		.promo
+			.promo-wrapper
+				.promo-title
+					font-size: 36px
+					line-height: 20px
+				.promo-subtitle
+					font-size: 20px
+					line-height: 36px
+				.promo-text
+					font-size: 15px	
+				.promo-btn
+					margin: 95px auto 190px auto		
+		.reasons
+			.multy-title
+				font-size: 27px
+			.reason-block
+				flex-direction: column
+				align-items: center
+			.reason-descr
+				margin-top: 15px
+				width: 340px
+				.reason-subtitle
+					text-align: center
+					padding-left: 0
+				.reason-text
+					text-align: justify
+					padding-left: 0
+		.mobile
+			padding: 46px 0 25px 0	
+			.multy-title
+				font-size: 27px
+			.mobile-item
+				width: 275px
+				height: 280px	
+				.mobile-item-subtitle
+					font-size: 20px
+		.choice-car
+			min-height: 600px
+			padding: 57px 0 137.5px 0
+			.multy-title
+				font-size: 27px
+			.black
+				top: 0
+				left: 0
+				height: 499px
+				width: 100%
+				background-color: #070716
+				z-index: 1		
+		.footer
+			align-items: center
+			padding: 15px 5px 5px 5px
+			flex-direction: column
+			&>div	
+				margin-bottom: 20px
+				&:nth-child(1)
+					order: 2
+				&:nth-child(2)
+					order: 1
+				&:nth-child(3)
+					order: 3
+					margin-bottom: 0
+			.social-icon
+				.social-icon-item
+					margin: 0 5px 0 5px
+			.center-link
+				padding-left: 0px
+				.footer-link
+					.footer_links_main
+						padding: 0 12px 0 32px
+						font-size: 13px
+					.footer_links_sub
+						padding: 0 16px 0 12px
+						font-size: 10px
+						&:last-child
+							padding-right: 0
+			.app-icon
+				display: flex
+				width: 316px	
+				margin-top: 0
+				.app-footer-img
+					display: block
+					padding: 0 5px
+					margin: 0 auto 10px auto	
+@media (max-width: 575px)
+	body
+		nav
+			width: 320px
+		.menu
+			width: 80%
+			&-active
+				left: 0
+			.menu-item
+				margin-top: 20px
+				.menu-link
+					font-size: 15px
+		.subheader
+			.subheader-padding
+				padding: 0 0 13px 15px
+				.logo
+					margin: 12px 0  0 0
+					.logo-icon
+						width: 100%
+						margin: 22px 0 0
+				.subheader-call
+					margin-top: 15px
+				.logo-text
+					display: none
+				.subheader-phone
+					font-size: 19px
+				.xs-hidden
+					display: none
+				.xs-visible
+					display: block
+					font-size: 12px
+					line-height: 26px
+					text-align: center
+					margin-top: 15px
+				.subheader-btn
+					display: block
+					margin: 0 auto 0 auto
+					width: 120px
+					height: 25px
+					font-size: 12px
+					border: 0
+					border-radius: 6px
+		.promo
+			height: 525px
+			background: url('../image/bg/promo_bg.jpg') 60% center/cover no-repeat
+			.promo-wrapper
+				.promo-title
+					font-size: 30px
+					line-height: 35px
+				.promo-subtitle
+					font-weight: bold
+					font-size: 20px
+					line-height: 23px
+				.promo-text
+					display: none	
+				.promo-btn
+					margin: 73px auto 34px auto
+		.reasons
+			padding-top: 30px
+			.multy-title
+				width: 100%
+				font-size: 15px
+				margin-top: 16px
+			.reason-block
+				.reason-round
+					width: 100px
+					height: 100px
+				.reason-descr
+					padding: 0 23px
+					.reason-subtitle
+						font-size: 15px
+					.reason-text
+						font-size: 14px
+		.mobile
+			padding-top: 30px
+			.multy-title
+				font-size: 17px
+			.multy-subtitle
+				font-size: 14px
+				padding-top: 10px
+			.mobile-item
+				margin-bottom: 30px
+		.choice-car
+			min-height: 390px
+			padding: 25px 0 33px 0
+			.multy-title
+				display: none
+			.multy-subtitle
+				display: none
+			.img-car
+				margin-top: 36px
+			.choice-car-text
+				position: relative
+				font-size: 14px
+				width: 100%
+				color: #FFFFFF
+				font-weight: 200
+				padding-top: 0
+				z-index: 3
+			.black
+				height: 395px
+		.require
+			padding-top: 30px
+			.multy-title
+				font-size: 17px
+				margin-top: 16px
+			.require-block
+				.require-title
+					font-size: 16px
+				.require-list
+					font-size: 14px
+					padding: 0
+					margin-top: 12px
+		.world-map
+			height: 360px
+			padding-top: 30px
+			.world-map-bg
+				min-height: 360px
+				background: url('../image/bg/world_bg.jpg') center center/cover no-repeat
+			.multy-title
+				font-size: 17px
+				margin-top: 16px
+			.multy-subtitle
+				font-size: 14px
+				padding-top: 12px
+			.world-map-descr
+				padding: 0
+			.world-map-link
+				display: block
+				width: 222px
+				height: 15px
+				font-size: 17px
+				bottom: 60.5px
+		.footer
+			align-items: center
+			padding: 15px 5px 5px 5px
+			flex-direction: column
+			&>div	
+				margin-bottom: 20px
+				&:nth-child(1)
+					order: 2
+				&:nth-child(2)
+					order: 1
+				&:nth-child(3)
+					order: 3
+					margin-bottom: 0
+			.social-icon
+				.social-icon-item
+					margin: 0 5px 0 5px
+			.center-link
+				padding-left: 0px
+				.line
+					margin-top: 40px
+				.footer-link
+					.footer_links_main
+						padding: 0 10px 0 31px
+						font-size: 13px
+					.footer_links_sub
+						padding: 0 12px 0 9px
+						font-size: 10px
+						&:last-child
+							padding-right: 0
+			.app-icon
+				display: flex
+				width: 316px	
+				margin-top: 0
+				.app-footer-img
+					display: block
+					padding: 0 5px
+					margin: 0 auto 10px auto	

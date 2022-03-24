@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+@import './modules/scales.css';
+@import './modules/intro.css';
+@import './modules/about.css';
+@import './modules/heading.css';
+@import './modules//skills.css';
+@import './modules//projects.css';
+@import './modules//prices.css';
+@import './modules/contacts.css';
+@import './modules//footer.css';
+@import './modules//up.css';
+@import './modules/media.css';
+
+
+:root {
+    --main-color:rgba(255, 190, 23, 1);
+    --link-color: #d19e1d;
+    --projects-hover: rgba(255, 190, 23, 0.4);
+    --hover: #ffc93e;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins',
+    sans-serif;
+    margin: 0;
+    background: url('../img/MAIN-BG.jpg') center center / cover;
+}
+
+.container {
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
